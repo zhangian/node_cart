@@ -1,0 +1,40 @@
+Mongoose {
+  connections:
+   [ NativeConnection {
+       base: [Object],
+       collections: [Object],
+       models: [Object],
+       config: [Object],
+       replica: false,
+       hosts: null,
+       host: '127.0.0.1',
+       port: 27017,
+       user: undefined,
+       pass: undefined,
+       name: 'node_wechat',
+       options: [Object],
+       otherDbs: [],
+       _readyState: 2,
+       _closeCalled: false,
+       _hasOpened: false,
+       _listening: false,
+       db: [Object] } ],
+  set: [Function],
+  get: [Function],
+  createConnection: [Function],
+  connect: [Function],
+  disconnect: [Function],
+  model: [Function],
+  modelNames: [Function],
+  _applyPlugins: [Function],
+  plugin: [Function],
+  '$opPromise':
+   Promise {
+     emitter:
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined },
+     emitted: {},
+     ended: false } }
