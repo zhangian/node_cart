@@ -16,7 +16,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var login=require('./routes/login');
 var register=require('./routes/register');
-var userRegister=require('./routes/user_register')
+var userRegister=require('./routes/user_register');
+var userLogin=require('./routes/user_login');
 
 // console.log(path)
 
@@ -58,7 +59,8 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/login', login);
 app.use('/register', register);
-app.use('/userRegister', userRegister)
+app.use('/userRegister', userRegister);
+app.use('/userLogin', userLogin);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
